@@ -1,0 +1,17 @@
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\bin\Release\netstandard2.0\FitGit.deps.json
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\bin\Release\netstandard2.0\FitGit.dll
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\bin\Release\netstandard2.0\ref\FitGit.dll
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\bin\Release\netstandard2.0\FitGit.pdb
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\final_app.csprojAssemblyReference.cache
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\ExerciseHistoryDisplay.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\SearchBrowsePage.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\SignUpPage.xaml.g.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\final_app.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\final_app.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\FitGit.dll
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\ref\FitGit.dll
+C:\Users\Jonathan\Desktop\r\FitGit\final_app\final_app\obj\Release\netstandard2.0\FitGit.pdb

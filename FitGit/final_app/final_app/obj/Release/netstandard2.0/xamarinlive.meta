@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\App.xaml</FilePath>
+      <Hash>9E-C9-D3-E4-B3-C3-97-11-8F-77-4D-C0-FD-88-A2-7A</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\ExerciseHistoryDisplay.xaml</FilePath>
+      <Hash>60-9D-06-F3-0A-2C-20-08-66-E2-70-34-66-4A-31-4C</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\LoginPage.xaml</FilePath>
+      <Hash>78-B0-F4-25-DB-1E-CE-4C-A3-46-A3-C7-CD-0E-8E-DA</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\MainPage.xaml</FilePath>
+      <Hash>0F-2C-B8-DD-FE-BA-95-25-E5-E7-99-48-45-DF-F6-4B</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\SearchBrowsePage.xaml</FilePath>
+      <Hash>67-04-22-C2-04-AE-28-2C-A7-34-5D-67-E1-69-B5-B6</Hash>
+      <Properties>
+        <string>NavigationPage.HasBackButton</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Jonathan\Desktop\FitGit1.0\FitGit\final_app\final_app\SignUpPage.xaml</FilePath>
+      <Hash>4E-0F-ED-27-B4-44-10-E3-D3-6B-3F-9A-8A-F9-3C-8E</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="final_app.SignUpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="uname_line" Placeholder="Username" WidthRequest="175" 
+                   VerticalOptions="Center" HorizontalOptions="Center" />
+            <Entry x:Name="weight_line" Placeholder="Weight (lbs)" WidthRequest="175" 
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="DOB_label" Text="DOB: " Grid.Column="0" Grid.Row="0" HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"/>
+                <DatePicker x:Name="date_pick" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start"
+                            VerticalOptions="Center"/>
+            </Grid>
+            
+            <Entry x:Name="pw_line" Placeholder="Password" WidthRequest="175" 
+                   VerticalOptions="Center" HorizontalOptions="Center" IsPassword="True" Text=""/>
+            <Entry x:Name="pw_again" Placeholder="Confirm Password" 
+                   WidthRequest="175" VerticalOptions="Center" HorizontalOptions="Center" IsPassword="True"
+                   Text=""/>
+            <Button x:Name="enter_btn" Text="Sign Up" Clicked="enter_clicked" 
+                    BackgroundColor="LightGray" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

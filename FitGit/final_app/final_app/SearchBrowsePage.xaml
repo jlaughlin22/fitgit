@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="final_app.SearchBrowsePage"
+             NavigationPage.HasBackButton="False"
+             x:Name="ContentPage1">
+    <ContentPage.ToolbarItems >
+        <ToolbarItem Text="Exercise History" Order="Primary" Clicked="ExerciseHistoryPage"></ToolbarItem>
+        <ToolbarItem Text="Log Out" Order="Secondary" Clicked="Logout"></ToolbarItem>
+        <ToolbarItem Text="Delete Account" Order="Secondary" Clicked="DeleteAccount"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar Placeholder="Search Exercises" TextChanged="SearchTextChanged"></SearchBar> <!-- text change show possible exercies allow user to click on one of them when do bring up that specific exercisewhen press cancel return entire page-->
+            <ScrollView x:Name="scrollView">
+                <StackLayout x:Name="OverheadStacklayoutm">
+                    <!--Where all of the exercies will be generated -->
+                </StackLayout>
+            </ScrollView>
+            <StackLayout VerticalOptions="End">
+                <Entry x:Name="ExerciseTime" Placeholder="Exercise minutes" TextChanged="MinutesChanged"></Entry>
+                <ContentView>
+                    <StackLayout Orientation="Horizontal" Spacing="2" Padding="2.5,-5,2.5,-5" HorizontalOptions="Center">
+                        <Button Text="Low Intensity" TextColor="Linen" HorizontalOptions="Center" VerticalOptions="End" Clicked="setIntensityLvl" CommandParameter="Low" BackgroundColor="MidnightBlue"></Button>
+                        <Button Text="Medium Intensity" TextColor="Linen" HorizontalOptions="Center" VerticalOptions="End" Clicked="setIntensityLvl" CommandParameter="Medium" BackgroundColor="MidnightBlue"></Button>
+                        <Button Text="High Intensity" TextColor="Linen" HorizontalOptions="Center" VerticalOptions="End" Clicked="setIntensityLvl" CommandParameter="High" BackgroundColor="MidnightBlue"></Button>
+                    </StackLayout>
+                </ContentView>
+                <ContentView BackgroundColor="LightGray">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Total Calories Burned: " FontAttributes="Bold" FontSize="Large" HorizontalOptions="Start" Margin="5,0,0,0" TextColor="Black"></Label>
+                        <Label x:Name="TotalCal" Text="0" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Start" Margin="5,0,0,0" TextColor="Black"></Label>
+                    </StackLayout>
+                </ContentView>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

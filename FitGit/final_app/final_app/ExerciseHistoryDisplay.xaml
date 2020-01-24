@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="final_app.ExerciseHistoryDisplay">
+    <ContentPage.ToolbarItems >
+        <ToolbarItem Text="Home" Order="Primary" Clicked="Gohome"></ToolbarItem>
+        <ToolbarItem Text="Log Out" Order="Secondary" Clicked="Logout"></ToolbarItem>
+        <ToolbarItem Text="Delete Account" Order="Secondary" Clicked="DeleteAccount"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout x:Name="OverheadStacklayout">
+                    <!--Where all of the exercies will be generated-->
+                </StackLayout>
+            </ScrollView>
+            <ContentView BackgroundColor="LightGray">
+                <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                    <Label Text="Total Calories Burned: " FontSize="Body" FontAttributes="Bold" Padding="5,0,0,0"></Label>
+                    <Label x:Name="TOtalCalVal"  Text="" FontSize="Body" Padding="-5,0,0,0"></Label>
+                </StackLayout>
+            </ContentView>
+            <ContentView BackgroundColor="LightGray">
+                <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                    <Label Text="Total Intensity Minutes Gained: " FontSize="Body" FontAttributes="Bold" Padding="5,0,0,0"></Label>
+                    <Label x:Name="TotINTMINS" Text="" FontSize="Body" Padding="-5,0,0,0"></Label>
+                </StackLayout>
+            </ContentView>
+            <Button Text="Clear Exercise History" TextColor="Linen" HorizontalOptions="Center" VerticalOptions="End" BackgroundColor="MidnightBlue" Clicked="ClearHistory"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

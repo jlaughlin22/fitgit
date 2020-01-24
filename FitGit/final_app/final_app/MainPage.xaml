@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="final_app.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    
+    <StackLayout>
+        <Label x:Name="FitGit_label" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"
+            Text="FitGit" FontSize="30"/>
+        <Image Source="Logo.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="Login" Text="Log In" VerticalOptions="End" Clicked="login_clicked"/>
+        <Button x:Name="Sign_up" Text="Sign Up" VerticalOptions="End" Clicked="sign_up_clicked"/>
+    </StackLayout>
+
+</ContentPage>
